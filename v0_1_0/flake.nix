@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-vtable-v0_1_0.flake = false;
+  inputs.src-vtable-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-vtable-v0_1_0.owner = "codehz";
-  inputs.src-vtable-v0_1_0.ref   = "v0_1_0";
   inputs.src-vtable-v0_1_0.repo  = "nim-vtable";
   inputs.src-vtable-v0_1_0.type  = "github";
   
